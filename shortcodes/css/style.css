@@ -1,0 +1,82 @@
+.wow-button {
+	display: inline-block;     
+    text-decoration: none; 
+    cursor: pointer;
+	box-sizing:	 border-box;
+	vertical-align: middle;
+	font-size:18px;
+	padding:5px 20px;
+	border-width:1px;
+	border-radius: 3px;
+	border-style: solid;	
+}
+.wow-button:before {
+    font-family: "FontAwesome";  
+	font-size: 18px;	
+	margin-right:5px;
+}
+.wow-box{
+	padding: 6px 9px;
+	margin: 0 auto 25px;
+	display: block;
+	width: 100%;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.wow-error{
+	background: #ffebe8;
+	border: 1px solid #C00;
+}
+.wow-success{
+	background: #e7f7d3;
+	border: 1px solid #6c3;
+}
+.wow-alert{
+	background: #fffbbc;
+	border: 1px solid #E6DB55;
+}
+.wow-box p:last-child {
+	margin-bottom: 0 !important;
+}
+#wowloginform{
+	overflow:auto;
+	margin-bottom:10px;
+	width:100%;	
+}
+#wowloginform input[type=text]{
+	box-sizing: border-box;	
+	width: 64%;	
+	float:left;
+	vertical-align: middle;
+	padding: 9px 10px 8px;
+	display: inline-block;
+	height: 54px !important;	
+	font-size:16px;
+	border-width:2px;
+	border-radius: 2px;
+	border-color: rgba(0, 0, 0, 0.1);
+	border-style: solid;
+	color: #383838;	
+	background-color: #ffffff;
+}
+#wowloginform input[type=submit]{
+	box-sizing: border-box;	
+	width:34%;
+	float:right;
+	font-weight: normal;
+	padding: 9px 2px 9px 2px;
+	text-transform: uppercase;
+	vertical-align: middle;
+	box-shadow: none;
+	text-shadow: none;	
+	display: inline-block;
+	height: 54px;	
+	font-size:16px;	
+	border-radius: 2px;	
+	color: #ffffff;
+	background-color: #303030;
+}
+#wowloginform input[type=submit]:hover{	
+	background-color: #303030;
+}
